@@ -47,11 +47,12 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados 
 
 3. **Configuração do Projeto**:
    - Abra o arquivo `config/conexao.php`.
-   - Edite as credenciais do banco de dados para corresponder às suas configurações locais (host, usuário, senha, mantenhabanco de dados o nome do  ).
+   - Edite as credenciais do banco de dados para corresponder às suas configurações locais (host, usuário, senha, mantenha o nome do banco de dados icefest).
 
 4. **Execução do Projeto**:
    - Inicie o servidor Apache e MySQL no painel de controle do XAMPP.
    - Abra o navegador e acesse `http://localhost/[caminho para o projeto]`.
+   - será exigido um login para acesso, deve ser inserido o usuário **glaydmaster@gmail.com** e a senha **1234**
 
 ## Recursos Adicionais
 
