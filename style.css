@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,500&family=Honk&display=swap');
+
+.body {
+    background-image: url('./img/verao.jpg');
+    background-size: cover;
+    /* Cobrir todo o espaço disponível */
+    background-position: center;
+    /* Centralizar a imagem */
+    background-repeat: no-repeat;
+    /* Evitar repetição da imagem */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+   
+}
+
+.image-container img {
+    width: 100%;
+    /* Faz com que a imagem preencha toda a largura da div */
+    height: 100%;
+    /* Faz com que a imagem preencha toda a altura da div */
+    object-fit: cover;
+    /* Isso irá cortar a imagem para cobrir a área total, mantendo suas proporções */
+    box-shadow: 7px 25px 32px 26px rgba(248, 136, 229, 0.75);
+    border-radius: 5%;
+
+}
+
+.welcome {
+    font-family: 'Honk', 'Montserrat', sans-serif;
+    color: #191919;
+    font-size: 1.7em;
+  
+    
+   
+}
+
+.form h1{
+    font-family: 'Honk', 'Montserrat', sans-serif;
+    color: #191919;
+    font-size: 4.5em;
+  
+    
+   
+}
+ 
+
+
+.login {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 15px 22px 6px rgba(0, 0, 0, 0.75);
+    width: 90%;
+    height: 67%;
+    opacity: 0.5;
+
+
+}
+
+.login h2 {
+    color: #FBC02D;
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.login label,
+login input {
+    display: block;
+    margin-left: 10px;
+}
+
+.login label {
+    color: #FFEB3B;
+    font-weight: 700;
+    margin: 10px 10px 0px;
+}
+
+.login input {
+    width: 90%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #FFC107;
+    padding: 5px 10px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.login button {
+    display: block;
+    width: 80%;
+    text-align: center;
+    background: #FFEB3B;
+    color: black;
+    padding: 10px 0;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    margin: 10px auto;
+    transition: 0.5s;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.login button:hover {
+    background: #FFF9C4;
+    color: #212121;
+}
+
+.forget {
+    color: #FFF9C4;
+    margin: 20px 10px;
+}
+
+input::placeholder {
+    color: white;
+
+}
+
+
+
+.custom-btn{
+    color: #fff; /* Cor do texto */
+    font-weight: bold; /* Espessura da fonte */
+    border: none; /* Remove a borda */
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 9%;
+    text-align: center;
+
+}
+.custom-btn:hover {
+    background: #FFF9C4;
+    color: #212121;
+   
+}
+
+
+
+a.nav-link {
+    color: #fff;
+  }
+
+
+.ladingImage img {
+    width: 100%; /* Garante que a imagem ocupe 100% da largura da div */
+   
+     /* Permite que a altura da imagem seja ajustada automaticamente */
+    display: flex; /* Remove espaços abaixo da imagem */
+   
+}
+
+
+  .box{
+    transition: transform 0.3s ease-in-out;
+   
+   
+  }
+  .box:hover {
+    transform: translateY(-10px); /* Move o card para cima por 5 pixels */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+
+.box7{
+    transition: transform 0.3s ease-in-out;
+   
+   
+  }
+  .box7:hover {
+    transform: translateY(-10px); /* Move o card para cima por 5 pixels */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+
+
+
+
+.btn-carrossel{
+    margin-top: 100px;
+}
+
+.marketing {
+    font-family: 'Honk', 'Montserrat', sans-serif;
+    color: #191919;
+    font-size: 2.5em;
+    margin-top: 230px;
+  
+   
+}
+/* form cad adm */
+
+
+
+@font-face {
+    font-family: 'CourierPrimeBold';
+    src: url('fonts/Courier_Prime/CourierPrime-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+  #inputAdm{
+   
+    border:0;
+    border-bottom:2px solid #ff5407;
+   
+
+   
+  }
+
+  ::placeholder {
+    font-weight: bold;
+    color: #999; /* Cor do texto do placeholder */
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  label {
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+  }
+  .p{
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+    
+  }
+  .inputRadio{ 
+    border:2px solid #ff5407;
+    border-radius: 10px;
+    
+  }
+
+h4{
+    font-family: 'CourierPrimeBold', sans-serif; /* Use 'sans-serif' como alternativa caso a fonte não seja carregada */
+    font-weight: bold;
+    
+}
+
+   
+input[type="checkbox"]:checked,input[type="radio"]:checked {
+ background-color: #ff5407;
+}
+
+.custom-popup-class {
+    height: 50px; /* Substitua isso pela altura desejada */
+    max-height: none; /* Ou ajuste conforme necessário */
+    margin-right: 07px;
+    margin-top: 35px;
+    
+  }
+  .custom-confirm-class{
+    margin-top: 100px;
+  }
+
+  
+  .painel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+
+}
+
+
+.box {
+    width: 13%;
+    height: 100px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+.box7 {
+    width: 13%;
+    height: 100px;
+    
+}
+  
+
