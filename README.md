@@ -52,6 +52,7 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados 
 4. **Execução do Projeto**:
    - Inicie o servidor Apache e MySQL no painel de controle do XAMPP.
    - Abra o navegador e acesse `http://localhost/[caminho para o projeto]`.
+   - será exigido um login para acesso, deve ser inserido o usuário **glaydmaster@gmail.com** e a senha **1234**
 
 ## Recursos Adicionais
 
